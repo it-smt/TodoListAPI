@@ -36,3 +36,8 @@ class UserLogin(BaseModel):
 
 class Message(Schema):
     detail: str
+
+
+class Token(Schema):
+    message: str
+    token: str
